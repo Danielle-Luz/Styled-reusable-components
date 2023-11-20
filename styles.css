@@ -1,8 +1,17 @@
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 button {
   background-color: transparent;
   border: none;
   color: #827f7f;
   cursor: pointer;
+  font-size: 16px;
   padding: 8px 28px;
   position: relative;
   width: fit-content;
