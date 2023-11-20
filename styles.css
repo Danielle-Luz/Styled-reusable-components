@@ -1,0 +1,31 @@
+button {
+  background-color: transparent;
+  border: none;
+  color: #827f7f;
+  cursor: pointer;
+  padding: 8px 28px;
+  position: relative;
+  width: fit-content;
+}
+
+.button-primary-wrapper {
+  background-color: #3f164b;
+  border-radius: 60px;
+  height: fit-content;
+  overflow: hidden;
+  position: relative;
+  width: fit-content;
+}
+
+.box-button__selected {
+  background-color: #551e65;
+  border-radius: 60px;
+  height: 100%;
+  left: 0%;
+  position: absolute;
+  transition: all 0.3s;
+}
+
+.button-primary__selected {
+  color: white;
+}
